@@ -27,5 +27,5 @@ app.listen(PORT, () => {
 });
 
 
-
-
+// Exporter la fonction handler pour Vercel
+module.exports = app;
