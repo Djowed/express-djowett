@@ -1,5 +1,5 @@
 const express = require('express');
-const { alerter } = require('./lib/utils');
+const { alerter } = require('../lib/utils');
 require('dotenv').config();
 
 const app = express();
